@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Employee.hbm.xml&apos; to &apos;FirstHibernateProjecct/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;FirstHibernateProjecct&apos;&#x0D;&#x0A;- Destination element: &apos;FirstHibernateProjecct/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;Employee.hbm.xml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src\/main\/resources=/maven.pomderived=/true=/=/optional=/true=/" element1="src/main/java/org/test/Employee.hbm.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1720487780352" units="0" version="1.0"/>
+</session>

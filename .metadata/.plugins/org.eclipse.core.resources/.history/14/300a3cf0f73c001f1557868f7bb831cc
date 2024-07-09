@@ -1,0 +1,15 @@
+package org.bean;
+import org.hibernate.*;
+import org.hibernate.cfg.*;
+public class DAOApp {
+
+	public static void main(String[] args) {
+		Configuration cfg=new Configuration();
+		cfg=cfg.configure("hibernate.cfg.xml");
+		SessionFactory factory=cfg.buildSessionFactory();
+		Session session=factory.openSession();
+		Transaction transaction=session.beginTransaction();
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package org.bean;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class Conn {
+
+	public static void main(String[] args) throws SQLException {
+		 
+		com.mysql.cj.jdbc.Driver  driver= new com.mysql.cj.jdbc.Driver();
+		DriverManager.registerDriver(driver);
+		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/hibernate","root","root");
+		
+		if(conn!=null) {
+			System.out.println("Database Connected");
+		}
+		else {
+			System.out.println("Issue");
+		}
+	}
+
+}
